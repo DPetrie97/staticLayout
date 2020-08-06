@@ -1,0 +1,199 @@
+.mainPageSection1{
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.mainPage{
+    background-color: #531F62;
+    background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+    background-size: cover;
+    padding-top: 83px !important;
+    padding-bottom: 65px !important;
+    margin-left: -1px;
+    margin-right: -2px;
+}
+
+.firstsection-main{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainPageSection1 img{
+    position: relative;
+    z-index: 2;
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 78px - 20px - 240px - 60px);
+    bottom: -35px;
+
+}
+
+header {
+    background-image: url(https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    padding: 19px 20px;
+    z-index: 900;
+    transition: top 0.3s ease-in-out;
+    background-color: #531F62;
+}
+
+.wolflogo{
+    width: 35%;
+}
+
+.downloadbutton{
+    position: absolute;
+    z-index: 70;
+    top: 26px;
+    right: 150px;
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
+    color: #ffffff !important;
+    font-size: x-large;
+}
+
+.columnrows{
+    position: fixed;
+    z-index: 999;
+    top: 25px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+
+}
+
+.column-bar1{
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.column-bar2{
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.column-bar3{
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.text{
+    margin: 30px auto 0;
+    color: #ffffff;
+}
+
+h1{
+    max-width: 270px;
+    margin: 0 auto 25px;
+    font-size: 34px;
+    line-height: 40px;
+    font-family: Arial, "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    margin: 0 auto 30px;
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-family: Arial, "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.bigyellow{
+    max-width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.big-yellow-bttn{
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #FE9000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    color: #ffffff;
+}
+
+.featuredin-section{
+    padding: 60px 0;
+    background-color: #f4fafa;
+}
+
+.featuredin-box{
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.reviewsites{
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 3px;
+    max-width: 880px;
+    margin: 0 auto 60px;
+    display: grid;
+}
